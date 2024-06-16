@@ -65,3 +65,77 @@ body {
   background-color: #fbfbfb;
   border-radius: 23px;
 }
+
+/* hero */
+
+.hero {
+  background-color: #000;
+  position: relative;
+}
+
+.hero__image-left {
+  position: absolute;
+  top: 90px;
+  left: 0;
+}
+
+.hero__inner {
+  padding: 140px 0 120px;
+  position: relative;
+}
+
+.hero__title {
+  margin-bottom: 24px;
+  width: 610px;
+  font-family: "Roboto Serif", serif;
+  color: #fbfbfb;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 75px;
+}
+
+.text-green {
+  color: #64ccc5;
+}
+
+.hero__subtitle {
+  margin-bottom: 32px;
+  width: 550px;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -3%;
+  color: #fbfbfb;
+}
+
+.hero__btn-trial {
+  margin-bottom: 180px;
+  padding: 11px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #fff;
+  border-radius: 23px;
+}
+
+.hero__brands-title {
+  margin-bottom: 5px;
+  font-family: "Roboto Serif", serif;
+  font-size: 600px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #64ccc5;
+}
+
+.hero__brans-list {
+  margin-left: -15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+hero__brans-item {
+}
