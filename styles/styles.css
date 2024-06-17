@@ -84,6 +84,12 @@ body {
   position: relative;
 }
 
+.hero__image {
+  position: absolute;
+  top: 150px;
+  right: 20px;
+}
+
 .hero__title {
   margin-bottom: 24px;
   width: 610px;
@@ -138,4 +144,84 @@ body {
 }
 
 hero__brans-item {
+}
+
+/* services */
+
+.services {
+  background-color: #fff;
+}
+.services__inner {
+  padding: 100px 0 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__subtitle {
+  margin-bottom: 24px;
+  font-family: "Roboto Serif", serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+  color: #64ccc5;
+}
+
+.services__title {
+  margin-bottom: 80px;
+  width: 695px;
+  font-family: "Roboto Serif", serif;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 75px;
+  text-align: center;
+}
+
+.services__box {
+  color: #0c0c0c;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 66px;
+  grid-row-gap: 80px;
+}
+
+.services__item {
+  padding: 45px;
+  width: 422px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  color: #0c0c0c;
+  cursor: pointer;
+
+  &:hover {
+    color: #f4f4f4;
+    background-color: #0c0c0c;
+  }
+}
+
+.services__item:hover .svg-inner {
+  stroke: #000;
+}
+
+.services__item:hover path {
+  fill: #fff;
+}
+
+.services__item-title {
+  margin-top: 62px;
+  font-family: "Roboto Serif", serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.services__item-text {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -3%;
 }
